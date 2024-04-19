@@ -16,17 +16,22 @@ let isUserLoggedIn: boolean = true;
 // userName = "Prasenjit";
 
 // ----Union type ------ //
-let userID: string | number = "10184800";
+type StringOrNum = string | number;
+
+let userID: StringOrNum = "10184800";
 
 // ---- Object type ------ //
 
 //let user: object;
-let user: {
+type User = {
   name: string;
   age: number;
   isAdmin: boolean;
   id: string | number;
 };
+
+let user: User;
+
 user = {
   name: "Prasenjit",
   age: 36,
