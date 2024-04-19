@@ -26,7 +26,7 @@ const finalResult = calculate(10, 20, addTwo);
 
 const FunctionConcept = () => {
   return (
-    <div>
+    <div className="w-full bg-green-100 flex flex-col justify-center items-center h-[5vh]">
       <h1>{finalResult}</h1>
     </div>
   );

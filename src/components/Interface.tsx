@@ -44,17 +44,19 @@ const output = new AuthCedentials(
 
 const Interface = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-[50vw] bg-orange-200 p-5 rounded-xl">
-      <div className="flex flex-col justify-center items-center text-green-500">
-        <h1>{creds.password}</h1>
-        <h1>{creds.email}</h1>
-        <h1>{creds.mode}</h1>
-      </div>
-      <div className="mt-5 flex flex-col justify-center items-center text-rose-500">
-        <h1>{output.password}</h1>
-        <h1>{output.email}</h1>
-        <h1>{output.mode}</h1>
-        <h1>{output.userName}</h1>
+    <div className="w-full bg-orange-100 flex flex-col justify-center items-center h-[30vh]">
+      <div className="flex flex-col justify-center items-center w-[50vw] bg-orange-200 p-5 rounded-xl">
+        <div className="flex flex-col justify-center items-center text-green-500">
+          <h1>{creds.password}</h1>
+          <h1>{creds.email}</h1>
+          <h1>{creds.mode}</h1>
+        </div>
+        <div className="mt-5 flex flex-col justify-center items-center text-rose-500">
+          <h1>{output.password}</h1>
+          <h1>{output.email}</h1>
+          <h1>{output.mode}</h1>
+          <h1>{output.userName}</h1>
+        </div>
       </div>
     </div>
   );

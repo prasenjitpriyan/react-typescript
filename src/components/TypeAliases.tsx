@@ -11,7 +11,7 @@ const calculate = (a: number, b: number, calcFn: AddFn) => {
 
 const TypeAliases = () => {
   return (
-    <div>
+    <div className="w-full bg-purple-100 flex flex-col justify-center items-center h-[5vh]">
       <h1>{calculate(2, 3, add)}</h1>
     </div>
   );

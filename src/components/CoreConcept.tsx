@@ -50,7 +50,7 @@ hobbies = ["Sports", "Cooking", "Reading"];
 
 const CoreConcept = () => {
   return (
-    <>
+    <div className="w-full bg-red-100 flex flex-col justify-center items-center h-[45vh]">
       <h1>{userName}</h1>
       <h1>{userAge}</h1>
       {isUserLoggedIn === true ? (
@@ -82,7 +82,7 @@ const CoreConcept = () => {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
