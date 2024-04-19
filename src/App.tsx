@@ -4,6 +4,7 @@ import Heading from "./components/Heading";
 import Interface from "./components/Interface";
 import MergingTypes from "./components/MergingTypes";
 import TypeAliases from "./components/TypeAliases";
+import TypeGuards from "./components/TypeGuards";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TypeAliases />
       <Interface />
       <MergingTypes />
+      <TypeGuards />
     </div>
   );
 }
