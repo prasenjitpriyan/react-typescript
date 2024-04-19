@@ -1,5 +1,6 @@
 import CoreConcept from "./components/CoreConcept";
 import FunctionConcept from "./components/FunctionConcept";
+import Interface from "./components/Interface";
 import TypeAliases from "./components/TypeAliases";
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div className="w-full bg-purple-100 flex flex-col justify-center items-center h-[5vh]">
         <TypeAliases />
+      </div>
+      <div className="w-full bg-orange-100 flex flex-col justify-center items-center h-[30vh]">
+        <Interface />
       </div>
     </div>
   );
